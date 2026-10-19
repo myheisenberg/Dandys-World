@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/myheisenberg/Dandys-World/main/main.luau?v=1"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/myheisenberg/Dandys-World/main/main.luau?v=2"))()
