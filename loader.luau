@@ -1,1 +1,7 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/myheisenberg/Dandys-World/main/main.luau?v=2"))()
+local ok, err = pcall(function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/myheisenberg/Dandys-World/main/main.luau?t=" .. tostring(os.time())))()
+end)
+
+if not ok then
+    warn("[Loader Error]:", err)
+end
